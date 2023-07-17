@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+.product-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ae1427;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-quantity {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: row-reverse;
+    /* Đổi chiều hiển thị của các phần tử con */
+    justify-content: space-between;
+    /* Canh giữa và chia đều khoảng cách giữa các phần tử con */
+}
+
+.product-image {
+    width: 50%;
+    /* Chiếm 50% chiều rộng của product-info */
+}
+
+.product-details {
+    width: 45%;
+    /* Chiếm 45% chiều rộng của product-info */
+}
